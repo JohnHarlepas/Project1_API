@@ -672,7 +672,7 @@ $("#hidden-button").on("click", function (event) {
   if (pass1.toLowerCase() == "letmein") {
   alert('You Got it Right!');
   // this needs to be changed when you put file on github. it needs the web address that will be associated with admin page 
-  window.open('adminPage.html');
+  window.open("file:///Users/john/Desktop/bootcamp/projects/PROJECT1_API/adminPage.html");
   break;
   } 
   testV+=1;
